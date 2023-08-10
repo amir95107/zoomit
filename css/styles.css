@@ -48,7 +48,10 @@ li {
 }
 
 .menu-wrapper {
-    padding: 0 1rem;
+    padding: 1rem 1rem 0 1rem;
+    position: sticky;
+    top: 0;
+    z-index: 10;
 }
 
 .menu-container,
@@ -78,6 +81,7 @@ li {
     display: flex;
     align-items: center;
 justify-content: center;
+position: relative;
 }
 
 .banner-container {
@@ -327,4 +331,39 @@ justify-content: center;
 .hVawLL {
     padding-right: 1.6rem;
     background-color: initial;
+}
+.sub-menu-wrapper{
+    opacity: 0;
+    display: block;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background-color: #fff;
+    transition: 0.3s ease-in-out;
+    color: #32323c;
+    z-index: 100;
+    border-radius: 0.5rem;
+}
+.sub-menu{
+    direction: rtl;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding: 1rem;
+    min-width: 400px;
+    gap:0.5rem
+}
+.menu-item:hover .sub-menu-wrapper{
+    opacity: 1;
+}
+
+.sub-menu-item {
+    width: fit-content;
+    font-size: 0.8rem;
+}
+.PIWZZ {
+    margin: unset;
+    font-size: 1.6rem;
+    font-weight: bold;
+    color: #383e43;
+    font-family: "Vazir FD", serif;
 }
