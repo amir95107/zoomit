@@ -1,0 +1,314 @@
+*,
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    direction: rtl;
+}
+
+@font-face {
+    font-family: "Vazir FD";
+    src: url(./../fonts/Vazirmatn-Regular.77a5213e.woff2);
+}
+
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+title {
+    font-family: "Vazir FD", serif;
+    /* color: #383e43; */
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.main-container{
+    background-color: #f9f9f9;
+}
+
+.gif-container img {
+    width: 100%;
+}
+
+.menu-bar-container {
+    width: 100%;
+}
+
+.menu-wrapper {
+    padding: 0 1rem;
+}
+
+.menu-container,
+.menu-bar {
+    display: flex;
+    width: 100%;
+    position: relative;
+    z-index: 10;
+
+}
+
+.menu-bar span {
+    color: #fff;
+}
+
+
+.menu-bar {
+    font-weight: 600;
+}
+.logo{
+    margin-left: 4rem;
+}
+
+.menu-item {
+    margin-left: 1.5rem;
+    direction: ltr;
+    display: flex;
+    align-items: center;
+justify-content: center;
+}
+
+.banner-container {
+    position: relative;
+}
+
+.top-articles-container {
+    min-height: 400px;
+    /* position: absolute; */
+    /* top: -9px; */
+}
+
+.top-articles {
+    display: grid;
+    grid-template-columns: 1.5fr 1fr 1fr;
+    height: 100%;
+    position: relative;
+}
+
+.article1 {
+    aspect-ratio: 3 / 2;
+}
+
+
+.article {
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    width: 100%;
+}
+
+.article .text-wrapper{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    -webkit-box-pack: end;
+    justify-content: flex-end;
+    flex-direction: column;
+    bottom: 0px;
+    color: #fff;
+    padding:2rem;
+    background-color: rgba(25, 25, 35, 0.5);
+    flex-flow: column wrap;
+    gap: 1.6rem;
+}
+
+.article img {
+    /* position: absolute; */
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition-duration: 0.5s;
+}
+
+.container{
+    position: relative;
+}
+
+.swiper-wrapper{
+    justify-content: center;
+    text-align: center;
+    display: flex;
+}
+
+.flex{
+    display: flex;
+}
+
+.category-container{
+    padding: 2rem 3rem;
+    justify-content: space-between;
+    background-color: #fff;
+}
+
+.swiper-slide svg {
+    width: 100px;
+}
+
+.jA-Dvxs{
+    border-radius: 16px;
+    font-family: inherit;
+    font-size: 1.2rem;
+    font-weight: 900;
+    width: fit-content;
+    height: fit-content;
+    padding: 0.2rem 1.6rem;
+    border: none;
+    background-color:#32323c;
+    color: #fff;
+    cursor: pointer;
+    text-decoration: none;
+    display: flex;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+}
+
+.jIBcbJ {
+    display: flex;
+    flex-flow: row;
+    -webkit-box-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    align-items: center;
+    gap: 1.6rem;
+}
+
+.fCAXsp {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: normal;
+    color: #7d7d87;
+    font-family: "Vazir FD", serif;
+    line-height: 1.85;
+    margin: 1rem 0;
+}
+
+.DVHkG{
+    color: #7d7d87;
+}
+
+.author-suggest{
+    margin-top: 4rem;
+    padding: 0 4rem;
+}
+
+.rfgXu {
+    width: 100%;
+    padding-right: 1.6rem;
+    min-height: 3.2rem;
+}
+.kMNuZp {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.cQLmqu{
+    position: relative;
+}
+
+.cQLmqu::before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    top: 0px;
+    right: -1.6rem;
+    background-color: #e4002b;
+}
+
+.article-list-container{
+    margin-top: 2rem;
+    position: relative;
+}
+.article-list{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    display: flex;
+    transition-property: transform;
+    box-sizing: content-box;
+    
+}
+.dqLWMB {
+    width: 100%;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    gap: 1.6rem;
+}
+.etOgqY {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 0.8rem;
+}
+.jfpQxu {
+    display: flex;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    color: #7d7d87;
+}
+.article-item{
+    width: calc(25% - 1.2rem);
+    margin-right:1.2rem;
+    border-radius: 1rem;
+}
+.gIwnHB img{
+    width: 100%;
+    border-radius: 0.35rem 0.35rem 0 0;
+}
+.iaIcNe {
+    background-color: #fff;
+    border-radius: 0 0 0.35rem 0.35rem;
+    margin-bottom: 0.8rem;
+    border-radius: 3px;
+    position: relative;
+    box-shadow: 0 1px 3px 0 #383e4330;
+}
+.uobOj {
+    margin: unset;
+    font-weight: bold;
+    color:#383e43;
+    font-family: "Vazir FD", serif;
+    line-height: 2;
+}
+.keUJqZ {
+    display: inherit;
+    border-radius: 18.7px;
+    border: none;
+    background-color: transparent;
+    font-size: 12px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    cursor: pointer;
+    padding: 0px;
+    opacity: 1;
+}
+.gmVvtO {
+    margin-right: 0.5rem;
+}
+.gmVvtO svg {
+    margin-left: 0.5rem;
+}
