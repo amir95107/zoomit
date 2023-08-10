@@ -148,7 +148,7 @@ justify-content: center;
 }
 
 .category-container{
-    padding: 2rem 3rem;
+    padding: 2rem 4rem;
     justify-content: space-between;
     background-color: #fff;
 }
@@ -202,7 +202,7 @@ justify-content: center;
 }
 
 .author-suggest{
-    margin-top: 4rem;
+    margin-top: 3rem;
     padding: 0 4rem;
 }
 
@@ -311,4 +311,20 @@ justify-content: center;
 }
 .gmVvtO svg {
     margin-left: 0.5rem;
+}
+.cyCkaH::before {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    top: 0px;
+    right: -1.6rem;
+    background-color: #e4002b;
+}
+.cyCkaH {
+    position: relative;
+}
+.hVawLL {
+    padding-right: 1.6rem;
+    background-color: initial;
 }
